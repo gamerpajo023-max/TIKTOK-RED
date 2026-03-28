@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TikTok Feed</title>
+    <style>
+        body {
+            background-color: #010101; /* Dark Mode */
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            background: linear-gradient(90deg, #ff0050, #00f2ea);
+            padding: 15px 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .container {
+            width: 100%;
+            max-width: 450px; /* Sukat ng phone screen */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .video-card {
+            background-color: #1a1a1a;
+            border-radius: 15px;
+            padding: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .tiktok-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        /* Override TikTok default width para mag-fit sa screen */
+        blockquote.tiktok-embed {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            min-width: 280px !important;
+        }
+        .video-title {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #00f2ea;
+            font-weight: 500;
+        }
+        footer {
+            padding: 20px;
+            font-size: 12px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>TIKTOK RED</header>
+
+    <div class="container">
+        
+        <div class="video-card">
+            <div class="tiktok-container">
+                </div>
+            <p class="video-title">Featured Video 1</p>
+        </div>
+
+        <div class="video-card">
+            <div class="tiktok-container">
+                </div>
+            <p class="video-title">Featured Video 2</p>
+        </div>
+
+    </div>
+
+    <footer>&copy; 2026 TIKTOK RED Project</footer>
+
+</body>
+</html>
