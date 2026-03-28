@@ -108,8 +108,7 @@ index.html
         
         <div class="video-card">
             <div class="tiktok-placeholder">
-                [ I-paste ang Embed Code mula sa TikTok dito ]
-            </div>
+                [ <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@franxine_o/video/7433770893609864449" data-video-id="7433770893609864449" data-embed-from="embed_page" style="max-width:605px; min-width:325px;"> <section> <a target="_blank" title="@franxine_o" href="https://www.tiktok.com/@franxine_o?refer=embed">@franxine_o</a> <p>??</p> <a target="_blank" title="♬ original sound - Busano🎶🎼 - Busano🎶🎼" href="https://www.tiktok.com/music/original-sound-Busano🎶🎼-7392567320654465808?refer=embed">♬ original sound - Busano🎶🎼 - Busano🎶🎼</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
             <p>Title ng Video 1</p>
         </div>
         <div class="video-card">
@@ -117,7 +116,7 @@ index.html
                 [ I-paste ang Embed Code mula sa TikTok dito ]
             </div>
             <p>Title ng Video 2</p>
-        </div>
+        </div>it'
         </div>
 
     <div class="ad-banner">
